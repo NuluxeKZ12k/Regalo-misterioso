@@ -7,7 +7,7 @@
 ret = false
 password=pbEnterText(_INTL("Inserta tu código."),0,12)
 password=password.upcase 
-if password=="CELEBI"
+if password=="semen"
   #Comprueba que el jugador ya tenga ese regalo especifico, para objetos es mejor usar otro tipo de check.
   #Para pokemon con evolucion, debes comprobar que esten ambas especies.
   if !hasEventMon?(PBSpecies::CELEBI,:CLASSIC,"INV2011") 
